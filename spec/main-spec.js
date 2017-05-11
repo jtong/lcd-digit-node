@@ -2,14 +2,29 @@ const main = require('../main/main');
 
 describe('main()', () => {
 
-    it('should console log "Debug Info"', () => {
-        spyOn(console, 'log');
-        main();
-        expect(console.log).toHaveBeenCalledWith('Debug Info');
+    it('should return 910', () => {
+        let actual = main("910");
+        expect(actual).toBe(
+            "._. ... ._.\n"+
+            "|_| ..| |.|\n"+
+            "..| ..| |_|\n");
     });
 
-    it('should return "Hello World!"', () => {
-        let actual = main();
-        expect(actual).toBe('Hello World!');
+    it('should return 256', () => {
+        let actual = main("256");
+        expect(actual).toBe(
+            "._. ._. ._.\n"+
+            "._| |_. |_.\n"+
+            "|_. ._| |_|\n");
     });
+
+
+    it('should return 7', () => {
+        let actual = main("7");
+        expect(actual).toBe(
+            "._.\n"+
+            "..|\n"+
+            "..|\n");
+    });
+
 });

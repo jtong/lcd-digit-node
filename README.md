@@ -15,6 +15,11 @@
     ..| ..| |_|
 
 
+## 参考资料
+
+- <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join?v=example>
+- <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push?v=example>
+- <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String>
 
 ## 答题流程
 1. 请用户仔细阅读题目要求和题目描述
