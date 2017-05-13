@@ -25,7 +25,6 @@
 1. 请用户仔细阅读题目要求和题目描述
 
 2. 在命令行中使用以下命令在用户本地任意目录下clone此题目库
-
 ```
 git clone repo_of_this_template
 ```
@@ -33,7 +32,6 @@ git clone repo_of_this_template
 NOTE：如果提示git命令未找到请先阅读参考资料
 
 3. 用任意编辑器打开clone下来的文件夹，内部会存在两个文件夹
-
 ```
 spec  //测试文件夹
 src   //源文件
@@ -45,13 +43,13 @@ src   //源文件
 ```
  git remote set-url origin my_url
 ```
-7. 请使用**git提交(commit)**并**上传(push)**，之后将此github仓库地址(用户自建的) eg:（https://github.com/username/repo） 填入到提交地址一栏 
+5. 请使用**git提交(commit)**并**上传(push)**，之后将此github仓库地址(用户自建的) eg:（https://github.com/username/repo） 填入到提交地址一栏 
 
-8. 获取分支
+6. 获取分支
 
-9. 提交
+7. 提交
 
-10. 等待结果
+8. 等待结果
 
 
 ## 如何运行
